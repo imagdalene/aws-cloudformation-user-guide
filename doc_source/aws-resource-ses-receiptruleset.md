@@ -4,7 +4,7 @@ Creates an empty receipt rule set\.
 
 For information about setting up receipt rule sets, see the [Amazon SES Developer Guide](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/receiving-email-receipt-rule-set.html)\.
 
-You can execute this operation no more than once per second\.
+You can execute this operation no more than once per second\. If a ReceiptRuleSet is created, it does not necessarily become active even if the ReceiptRules it contains are active. Manual intervention at AWS Console or using the aws-cli is still needed to turn this ruleset on. 
 
 ## Syntax<a name="aws-resource-ses-receiptruleset-syntax"></a>
 
